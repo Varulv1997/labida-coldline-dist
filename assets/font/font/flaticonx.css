@@ -1,0 +1,59 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 05/04/2020 08:34
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Flaticon.eot");
+  src: url("Flaticon-1.eot") format("embedded-opentype"),
+       url("Flaticon.bin") format("woff2"),
+       url("Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-call:before { content: "\f100"; }
+.flaticon-envelope:before { content: "\f101"; }
+.flaticon-pin:before { content: "\f102"; }
+.flaticon-facebook:before { content: "\f103"; }
+.flaticon-twitter:before { content: "\f104"; }
+.flaticon-linkedin:before { content: "\f105"; }
+.flaticon-search:before { content: "\f106"; }
+.flaticon-list:before { content: "\f107"; }
+.flaticon-play:before { content: "\f108"; }
+.flaticon-podium:before { content: "\f109"; }
+.flaticon-customer-service:before { content: "\f10a"; }
+.flaticon-handshake:before { content: "\f10b"; }
+.flaticon-technical-support:before { content: "\f10c"; }
+.flaticon-megaphone:before { content: "\f10d"; }
+.flaticon-settings:before { content: "\f10e"; }
+.flaticon-shield:before { content: "\f10f"; }
+.flaticon-back-in-time:before { content: "\f110"; }
+.flaticon-newsletter:before { content: "\f111"; }
+.flaticon-checked:before { content: "\f112"; }
+.flaticon-right-chevron:before { content: "\f113"; }
+.flaticon-at:before { content: "\f114"; }
+.flaticon-tap:before { content: "\f115"; }
+.flaticon-startup:before { content: "\f116"; }
+.flaticon-heart:before { content: "\f117"; }
+.flaticon-speech-bubble:before { content: "\f118"; }
+.flaticon-view:before { content: "\f119"; }
+.flaticon-share:before { content: "\f11a"; }
+.flaticon-instagram:before { content: "\f11b"; }
+.flaticon-block:before { content: "\f11c"; }

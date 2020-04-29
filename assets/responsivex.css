@@ -1,0 +1,1198 @@
+@media (max-width: 767px) {
+  /* Default CSS */
+  p {
+    font-size: 14px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .pb-70 {
+    padding-bottom: 20px;
+  }
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+  .section-title h2 {
+    font-size: 20px;
+  }
+  .section-title span {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .theme-button .default-btn {
+    padding: 10px 30px;
+  }
+  #particles-js {
+    display: none;
+  }
+  /*------ Home Page ONE CSS Start ------*/
+  /* Header CSS */
+  .header-area {
+    display: none;
+  }
+  /* Navbar CSS */
+  .navbar-area .other-option {
+    display: none;
+  }
+  .navbar-area .mobile-nav {
+    display: block;
+    position: relative;
+  }
+  .navbar-area .mobile-nav .navbar-nav {
+    height: 300px;
+    overflow-y: scroll;
+  }
+  .navbar-area .mobile-nav .logo {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    z-index: 99999;
+    max-width: 100px;
+  }
+  .navbar-area .mean-container .mean-bar {
+    background-color: #000;
+    padding: 0;
+  }
+  .navbar-area .mean-container a.meanmenu-reveal {
+    padding: 15px 15px 0 0;
+  }
+  .navbar-area .mobile-nav nav .navbar-nav .nav-item a i {
+    display: none;
+  }
+  .navbar-area .main-nav {
+    display: none !important;
+  }
+  .navbar-area.sticky-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  /* Banner CSS*/
+  .main-banner {
+    height: 100%;
+  }
+  .main-banner .banner-text {
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 75px;
+  }
+  .main-banner .banner-text h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  .main-banner .banner-text p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .main-banner .banner-image {
+    position: relative;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    top: inherit;
+    bottom: 40px;
+  }
+  .main-banner .banner-text .theme-button .default-btn {
+    margin-right: 5px;
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+  .main-banner .banner-text .theme-button .video-btn {
+    top: 0px;
+  }
+  .main-banner .banner-text .theme-button .video-btn i {
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    font-size: 14px;
+  }
+  /* Video Section CSS */
+  .video-section {
+    padding-bottom: 60px;
+  }
+  .video-section .video-text {
+    text-align: center;
+  }
+  .video-section .video-text i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+  }
+  .video-section .video-text i::after {
+    display: none;
+  }
+  .video-section .video-text p {
+    position: relative;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    top: 40px;
+  }
+  /* Theory CSS */
+  .theory-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .theory-section .theory-area {
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(12, 0, 46, 0.14);
+            box-shadow: 0px 2px 20px 0px rgba(12, 0, 46, 0.14);
+    margin: 0;
+  }
+  .theory-section .theory-area .theory-text {
+    padding: 50px 0px;
+  }
+  .theory-section .theory-area .theory-text h2 {
+    font-size: 20px;
+  }
+  .theory-section .theory-area .theory-text p {
+    margin-bottom: 15px;
+  }
+  .theory-section .theory-area .theory-img {
+    position: relative;
+    bottom: 0;
+    max-width: 100%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: inherit;
+  }
+  /* About CSS */
+  .about-section {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .about-section .about-text .about-us {
+    margin-bottom: 30px;
+  }
+  .about-section .about-text .about-us i {
+    left: 0;
+  }
+  .about-section .about-text p {
+    margin-bottom: 40px;
+  }
+  .about-section .about-image img {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  /* Feature CSS */
+  .features-section .features-card {
+    padding: 20px 15px;
+  }
+  .features-section .features-card i {
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+  }
+  /* Service CSS */
+  .service-section .service-text {
+    padding: 20px;
+    margin: 20px;
+  }
+  .service-section .service-text h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .service-section .service-text ul li {
+    padding: 10px 10px 10px 65px;
+    max-width: 300px;
+    font-size: 14px;
+  }
+  .service-section .service-text ul li i {
+    width: 50px;
+    line-height: 45px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .service-section .service-img {
+    width: 100%;
+  }
+  /* Team CSS */
+  .team-section .team-card .team-img img {
+    width: 100%;
+  }
+  /* Testimonial CSS */
+  .testimonial-section .testimonial-slider::before {
+    width: 100%;
+    height: 90%;
+    bottom: 0;
+  }
+  .testimonial-section .testimonial-slider img {
+    margin: 0 auto 20px;
+    max-width: 115px;
+  }
+  .testimonial-section .testimonial-slider p {
+    padding: 0 10px;
+  }
+  /* Portofolio CSS */
+  .portfolio-section .portfolio-item .portfolio-img img {
+    width: 100%;
+  }
+  .portfolio-section .portfolio-item .portfolio-img .portfolio-text h3 {
+    font-size: 16px;
+  }
+  .portfolio-section .portfolio-item .portfolio-img .portfolio-text .portfolio-btn {
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+  .portfolio-section .theme-button {
+    margin: 10px 0;
+  }
+  /* Progress CSS */
+  .progress-section .progress-image {
+    width: 100%;
+  }
+  .progress-section .progress-text {
+    padding: 40px 25px;
+  }
+  .progress-section .progress-text h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .progress-section .progress-text p {
+    font-size: 15px;
+    margin-bottom: 55px;
+  }
+  /* Blog CSS */
+  .blog-section .blog-card .blog-img img {
+    width: 100%;
+  }
+  .blog-section .blog-card h3 {
+    font-size: 16px !important;
+  }
+  .blog-section .blog-card .post-info .blog-btn {
+    top: 7px !important;
+  }
+  /* Contact CSS */
+  .contact-section .contact-form {
+    padding: 30px;
+  }
+  .contact-section .contact-form .contact-shape {
+    display: none;
+  }
+  .contact-section .contact-img {
+    background-image: none;
+  }
+  .contact-section .contact-img img {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .contact-section .p-0 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  /* Newsletter CSS */
+  .newsletter-section .newsletter-area {
+    margin-bottom: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+  .newsletter-section .newsletter-area h2 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 1.3;
+  }
+  .newsletter-section .newsletter-area .newsletter-form {
+    text-align: center;
+  }
+  .newsletter-section .newsletter-area .newsletter-form .form-control {
+    margin-bottom: 15px;
+  }
+  .newsletter-section .newsletter-area .newsletter-form .default-btn {
+    position: relative;
+    text-align: center;
+  }
+  .newsletter-section .newsletter-area .subscribe-shape {
+    display: none;
+  }
+  /* Footer CSS */
+  .footer-area {
+    -webkit-clip-path: none;
+            clip-path: none;
+    padding-top: 50px;
+  }
+  .footer-area .footer-widget {
+    margin-bottom: 30px;
+  }
+  .footer-area .footer-widget h3 {
+    margin-bottom: 20px;
+  }
+  .footer-area .footer-widget ul li {
+    margin-bottom: 15px;
+  }
+  .footer-area .pl-75 {
+    padding-left: 0;
+  }
+  .footer-area .copyright-area {
+    margin-top: 20px;
+    text-align: center !important;
+  }
+  .footer-area .copyright-area p {
+    text-align: center !important;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  .footer-area .copyright-area ul {
+    padding-left: 0;
+  }
+  .footer-area .copyright-area ul li a {
+    text-align: center !important;
+    font-size: 14px;
+  }
+  .footer-area .copyright-area .text-right, .footer-area .copyright-area .text-left {
+    text-align: center !important;
+  }
+  /*------ Home Page One CSS End ------*/
+  /*------ Home Page Two CSS Start ------*/
+  /* Banner CSS */
+  .banner-style-two .banner-image img {
+    position: relative;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto;
+    width: 100% !important;
+    margin-bottom: 30px;
+    max-width: inherit !important;
+  }
+  /* About CSS */
+  .about-style-two .about-image {
+    width: 100%;
+  }
+  .about-style-two .about-text {
+    padding: 20px;
+    margin: 0 15px;
+  }
+  /* Video CSS */
+  .video-style-two {
+    padding: 100px 0;
+  }
+  .video-style-two .video-text a i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 15px;
+  }
+  .video-style-two .video-text a i::after {
+    width: 80px;
+    height: 80px;
+  }
+  /* Service CSS */
+  .service-style-two {
+    margin-top: 30px;
+  }
+  .service-style-two .service-text ul li {
+    margin: 0 auto 20px;
+  }
+  /* Process CSS*/
+  .progress-style-two {
+    margin-top: 50px;
+  }
+  .progress-style-two .progress-image {
+    z-index: -1;
+  }
+  .progress-style-two .progress-text {
+    margin: 15px;
+  }
+  /* Price CSS */
+  .pricing-section .pricing-card {
+    padding: 40px 25px;
+  }
+  .pricing-section .pricing-card::before {
+    height: 175px;
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  .pricing-section .pricing-card .price-header {
+    margin-bottom: 55px;
+  }
+  .pricing-section .pricing-card .price-header i {
+    top: 90px;
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .pricing-section .pricing-card .pricing-feature ul li {
+    font-size: 14px;
+  }
+  .pricing-section .pricing-card.price-card-two::after {
+    display: none;
+  }
+  .pricing-section .pricing-card.price-card-three::before {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  /* Contact CSS */
+  .contact-section {
+    text-align: center;
+  }
+  .contact-section .contact-form .contact-text h3 {
+    font-size: 23px;
+  }
+  .contact-section .contact-form .contact-text p {
+    font-size: 15px;
+  }
+  /*------ Home Page Two CSS End ------*/
+  /*------ About Page CSS Start ------*/
+  /* Theory CSS */
+  .theory-style-two {
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+  /* Video CSS */
+  .video-style-three {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .video-style-three .video-text a i {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+  .video-style-three .video-text a i::after {
+    width: 70px;
+    height: 70px;
+    top: -5px;
+    left: -5px;
+  }
+  /*------ About Page CSS End ------*/
+  /*------ Service Page CSS Start ------*/
+  .service-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .service-title h2 {
+    font-size: 30px !important;
+  }
+  .service-style-three .service-card {
+    padding: 20px 10px;
+  }
+  .service-style-three .service-card h3 {
+    font-size: 18px !important;
+  }
+  /*------ Service Page CSS End ------*/
+  /*------ Portfolio Page CSS Start ------*/
+  .portfolio-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .portfolio-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ Portfolio Page CSS End ------*/
+  /*------ Portfolio Page TWO CSS Start ------*/
+  .portfolio-style-two .portfolio-menu li {
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    display: block;
+  }
+  /*------ Portfolio Page TWO CSS End ------*/
+  /*------ Pricing Page CSS Start ------*/
+  .pricing-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .pricing-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ Pricing Page CSS End ------*/
+  /*------ 404 Page CSS Start ------*/
+  .error-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .error-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ 404 Page CSS End ------*/
+  /*------ Team Page CSS Start ------*/
+  .team-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .team-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ Team Page CSS End ------*/
+  /*------ Privacy Page CSS Start ------*/
+  .privacy-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .privacy-title h2 {
+    font-size: 30px !important;
+  }
+  .privacy-section h2 {
+    font-size: 20px;
+  }
+  .privacy-section .privacy-text h3 {
+    font-size: 16px;
+  }
+  /*------ Privacy Page CSS End ------*/
+  /*------ Blog Page CSS Start ------*/
+  .blog-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .blog-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ Blog Page CSS End ------*/
+  /*------ Blog Details Page CSS Start ------*/
+  .blog-details-area .blog-description .article-title {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  .blog-details-area .blog-description .blog-comment {
+    padding: 20px;
+    text-align: center;
+  }
+  .blog-details-area .blog-description .blog-comment .default-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  .blog-details-area .blog-description .article-info ul li {
+    margin-right: 5px;
+  }
+  .blog-details-area .blog-category ul li a {
+    font-size: 15px;
+  }
+  .blog-details-area .photo-gallery {
+    text-align: center;
+  }
+  .blog-details-area .photo-gallery a img {
+    padding-left: 0;
+  }
+  .blog-details-area .tags {
+    text-align: center;
+  }
+  /*------ Blog Details Page CSS End ------*/
+  /*------ FAQ Page CSS Start ------*/
+  .faq-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .faq-title h2 {
+    font-size: 30px !important;
+  }
+  .faq-area h2 {
+    font-size: 20px;
+  }
+  .faq-area .question {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+  }
+  .faq-area .faq-t {
+    top: -45px;
+  }
+  /*------ FAQ Page CSS End ------*/
+  /*------ Contact Page CSS Start ------*/
+  .contact-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .contact-title h2 {
+    font-size: 30px !important;
+  }
+  .contact-area .contact-box {
+    margin-top: 50px;
+    padding: 40px 0px;
+  }
+  .contact-area .contact-box .contact-card {
+    margin-bottom: 20px;
+  }
+  .map {
+    height: 300px;
+    margin-bottom: 50px;
+  }
+  .map iframe {
+    height: 300px;
+  }
+  /*------ Contact Page CSS End ------*/
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /*------ Home Page One CSS Start ------*/
+  /* Default CSS */
+  .pt-100 {
+    padding-top: 70px;
+  }
+  .pb-70 {
+    padding-bottom: 40px;
+  }
+  .pb-100 {
+    padding-bottom: 70px;
+  }
+  .section-title h2 {
+    font-size: 25px;
+  }
+  .section-title span {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .theme-button .default-btn {
+    padding: 10px 30px;
+  }
+  #particles-js {
+    display: none;
+  }
+  /* Header CSS*/
+  .header-area .header-left-text ul li {
+    font-size: 14px;
+  }
+  /* Navbar CSS */
+  .navbar-area .other-option {
+    display: none;
+  }
+  .navbar-area .mobile-nav {
+    display: block;
+    position: relative;
+  }
+  .navbar-area .mobile-nav .navbar-nav {
+    height: 300px;
+    overflow-y: scroll;
+  }
+  .navbar-area .mobile-nav .logo {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    z-index: 99999;
+    max-width: 100px;
+  }
+  .navbar-area .mean-container .mean-bar {
+    background-color: #000;
+    padding: 0;
+  }
+  .navbar-area .mean-container a.meanmenu-reveal {
+    padding: 15px 15px 0 0;
+  }
+  .navbar-area .mobile-nav nav .navbar-nav .nav-item a i {
+    display: none;
+  }
+  .navbar-area .main-nav {
+    display: none !important;
+  }
+  .navbar-area.sticky-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  /* Banner CSS */
+  .main-banner {
+    height: 100%;
+    text-align: center;
+  }
+  .main-banner .banner-text {
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 140px;
+  }
+  .main-banner .banner-text h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+  .main-banner .banner-text p {
+    margin-bottom: 35px;
+  }
+  .main-banner .banner-text .theme-button .video-btn {
+    top: 2px;
+  }
+  .main-banner .banner-text .theme-button .video-btn i {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+  }
+  .main-banner .banner-image {
+    position: relative;
+    margin: auto;
+    bottom: 50px;
+    top: inherit;
+    right: 0;
+    left: 0;
+  }
+  .main-banner .banner-image img {
+    max-width: 100%;
+  }
+  /* Video Section CSS */
+  .video-section {
+    padding-bottom: 75px;
+  }
+  .video-section .video-text {
+    text-align: center;
+  }
+  .video-section .video-text i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+  }
+  .video-section .video-text p {
+    position: relative;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    top: 40px;
+  }
+  /* Theory CSS */
+  .theory-section {
+    margin-top: 70px;
+    text-align: center;
+  }
+  .theory-section .theory-area .theory-text {
+    padding: 50px 0px;
+  }
+  .theory-section .theory-area .theory-text h2 {
+    font-size: 20px;
+  }
+  .theory-section .theory-area .theory-text p {
+    margin-bottom: 15px;
+  }
+  .theory-section .theory-area .theory-img {
+    position: relative;
+    bottom: 0;
+    max-width: 100%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: inherit;
+  }
+  /* About CSS */
+  .about-section {
+    padding-top: 70px;
+  }
+  .about-section .about-image {
+    margin: auto;
+  }
+  .about-section .about-image img {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    max-width: unset;
+    margin-bottom: 30px;
+  }
+  .about-section .about-image :nth-child(3), .about-section .about-image :nth-child(2) {
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .about-section .about-text .section-title {
+    margin: 0 auto 50px 0;
+  }
+  .service-section .service-text {
+    padding: 35px;
+  }
+  .service-section .service-text h2 {
+    font-size: 20px;
+  }
+  /* Team CSS */
+  .team-section .team-card .team-img img {
+    width: 100%;
+  }
+  /* Portofolio CSS */
+  .portfolio-section .portfolio-item .portfolio-img img {
+    width: 100%;
+  }
+  .portfolio-section .portfolio-item .portfolio-img .portfolio-text h3 {
+    margin-bottom: 20px;
+  }
+  .portfolio-section .portfolio-item .portfolio-img .portfolio-text .portfolio-btn {
+    padding: 10px 20px;
+  }
+  /* Progress CSS */
+  .progress-section .progress-text {
+    padding: 35px;
+  }
+  .progress-section .progress-text h2 {
+    font-size: 25px;
+  }
+  .newsletter-section .newsletter-area {
+    text-align: center;
+  }
+  .newsletter-section .newsletter-area .subscribe-shape {
+    display: none;
+  }
+  /* Footer CSS */
+  .footer-area {
+    -webkit-clip-path: none;
+            clip-path: none;
+    padding-top: 200px;
+  }
+  .footer-area .footer-widget .footer-logo img {
+    margin-top: 0;
+    max-width: 100px;
+  }
+  .footer-area .footer-widget ul li {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .footer-area .footer-widget p {
+    font-size: 14px;
+  }
+  .footer-area .pl-75 {
+    padding-left: 15px;
+  }
+  .footer-area .copyright-area {
+    margin-top: 60px;
+  }
+  .footer-area .copyright-area p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .footer-area .copyright-area ul li a {
+    font-size: 15px;
+  }
+  /*------ Home Page One CSS End ------*/
+  /*------ Home Page Two CSS Start ------*/
+  .banner-style-two .banner-text .theme-button .video-btn {
+    top: 0;
+  }
+  .banner-style-two .banner-text .theme-button .video-btn i {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+  }
+  .banner-style-two .banner-image {
+    margin: auto;
+    max-width: 100%;
+  }
+  .banner-style-two .banner-image img {
+    position: relative;
+    max-width: 100%;
+    right: 0 !important;
+    margin: 0 10px;
+  }
+  /* About CSS */
+  .about-style-two .about-image {
+    width: 100%;
+  }
+  .about-style-two .about-text {
+    margin: 0 50px;
+  }
+  /* Pricing CSS */
+  .pricing-section .pricing-card::before {
+    -webkit-clip-path: none;
+            clip-path: none;
+    height: 185px;
+  }
+  .pricing-section .pricing-card .price-header i {
+    top: 90px;
+  }
+  .pricing-section .pricing-card.price-card-two::before {
+    height: 260px;
+  }
+  .pricing-section .pricing-card.price-card-two::after {
+    display: none;
+  }
+  .pricing-section .pricing-card.price-card-three::before {
+    height: 185px;
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  .pricing-section .pricing-card .pricing-feature ul li {
+    font-size: 16px;
+  }
+  /* Blog CSS */
+  .blog-section .blog-card .blog-text h3 {
+    font-size: 18px;
+  }
+  /*------ Home Page Two CSS End ------*/
+  /*------ About Page CSS Start ------*/
+  /* Theory CSS */
+  .theory-style-two {
+    margin-top: 0;
+    margin-bottom: 70px;
+  }
+  /*------ About Page CSS End ------*/
+  /*------ Service Page CSS Start ------*/
+  .service-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .service-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ Service Page CSS End ------*/
+  /*------ Portfolio Page CSS Start ------*/
+  .portfolio-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .portfolio-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ Portfolio Page CSS End ------*/
+  /*------ Pricing Page CSS Start ------*/
+  .pricing-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .pricing-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ Pricing Page CSS End ------*/
+  /*------ 404 Page CSS Start ------*/
+  .error-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .error-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ 404 Page CSS End ------*/
+  /*------ Team Page CSS Start ------*/
+  .team-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .team-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ Team Page CSS End ------*/
+  /*------ Privacy Page CSS Start ------*/
+  .privacy-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .privacy-title h2 {
+    font-size: 30px !important;
+  }
+  .privacy-section h2 {
+    font-size: 25px;
+  }
+  .privacy-section .privacy-text h3 {
+    font-size: 18px;
+  }
+  /*------ Privacy Page CSS End ------*/
+  /*------ Blog Page CSS Start ------*/
+  .blog-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .blog-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ Blog Page CSS End ------*/
+  /*------ FAQ Page CSS Start ------*/
+  .faq-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .faq-title h2 {
+    font-size: 30px !important;
+  }
+  /*------ FAQ Page CSS End ------*/
+  /*------ Contact Page CSS Start ------*/
+  .contact-title {
+    height: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .contact-title h2 {
+    font-size: 30px !important;
+  }
+  .contact-area .contact-box {
+    margin-top: 50px;
+    padding: 40px 0px;
+  }
+  .contact-area .contact-box .contact-card {
+    margin-bottom: 20px;
+  }
+  .map {
+    height: 500px;
+    margin-bottom: 70px;
+  }
+  .map iframe {
+    height: 500px;
+  }
+  /*------ Contact Page CSS End ------*/
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Default CSS */
+  .section-title h2 {
+    font-size: 30px;
+  }
+  /*------ Home Page One CSS Start ------*/
+  /* Header CSS */
+  .header-area .header-left-text ul li i {
+    font-size: 14px;
+  }
+  /* Banner CSS */
+  .main-banner {
+    height: 100%;
+  }
+  .main-banner .banner-text {
+    max-width: 520px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .main-banner .banner-text h1 {
+    font-size: 50px;
+  }
+  .main-banner .banner-image {
+    max-width: 340px;
+    right: 50px;
+    top: 100px;
+  }
+  /* Theory CSS */
+  .theory-section .theory-area .theory-img {
+    top: inherit;
+    bottom: 0;
+    max-width: 445px;
+  }
+  .theory-section .theory-area .theory-text h3 {
+    font-size: 30px;
+  }
+  /* Service Section */
+  .service-section .service-text {
+    padding: 60px;
+  }
+  .service-section .service-text h2 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  /* Team CSS */
+  .team-section .team-card .team-text {
+    width: 100%;
+  }
+  .team-section .team-card .team-text h3 {
+    font-size: 15px;
+  }
+  .team-section .team-card .team-text p {
+    font-size: 14px;
+  }
+  /* Testimonial Section */
+  .testimonial-section .testimonial-slider p {
+    padding: 0 50px;
+  }
+  /* Process Section */
+  .progress-section .progress-text {
+    padding: 50px;
+  }
+  .progress-section .progress-text h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .progress-section .progress-text p {
+    margin-bottom: 70px;
+  }
+  /* Blog Section */
+  .blog-section .blog-card .blog-text h3 {
+    font-size: 16px;
+  }
+  .blog-section .blog-card .blog-text .post-info .blog-btn {
+    top: 7px;
+  }
+  /*------ Home Page One CSS End ------*/
+  /*------ Home Page Two CSS Start ------*/
+  /* Banner CSS */
+  .banner-style-two .banner-image img {
+    width: 100%;
+  }
+  /* About CSS */
+  .about-style-two {
+    background: none;
+  }
+  /* Price CSS */
+  .pricing-section .pricing-card {
+    padding: 30px;
+  }
+  .pricing-section .pricing-card .pricing-feature ul li {
+    font-size: 16px;
+  }
+  .pricing-section .pricing-card.price-card-two::after {
+    top: 140px;
+  }
+  /* Footer CSS */
+  .footer-area .pl-75 {
+    padding-left: 40px;
+  }
+  .footer-area .footer-widget p {
+    font-size: 15px;
+  }
+  .footer-area .footer-widget ul li {
+    margin-bottom: 25px;
+  }
+  /*------ Home Page Two CSS End ------*/
+  /*------ About Page CSS Start ------*/
+  /* Theory CSS */
+  .theory-style-two {
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+  /*------ About Page CSS End ------*/
+}
+
+@media (min-width: 1800px) {
+  /* Home Page CSS Start */
+  /* Banner CSS */
+  .main-banner .banner-image {
+    right: 15%;
+    top: 70px;
+    max-width: 500px;
+  }
+  /* Progress CSS */
+  .progress-section .progress-text {
+    padding: 100px;
+  }
+  /* Home Page CSS End */
+  /* Home Page Two CSS Start */
+  /* Banner CSS*/
+  .banner-style-two .banner-image {
+    right: 25%;
+    top: 130px;
+    max-width: 500px;
+  }
+  .banner-style-two .banner-image :nth-child(1) {
+    max-width: 370px;
+    top: 20%;
+    right: 25%;
+  }
+  .banner-style-two .banner-image :nth-child(2) {
+    max-width: 350px;
+    top: 25px;
+    right: 10%;
+  }
+  .banner-style-two .banner-image :nth-child(3) {
+    max-width: 265px;
+    top: 50%;
+    right: 12%;
+  }
+  .service-section .service-text h2 {
+    max-width: 590px;
+  }
+  /* Home Page Two CSS End */
+}
+/*# sourceMappingURL=responsive.css.map */
