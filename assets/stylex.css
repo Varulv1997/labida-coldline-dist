@@ -727,12 +727,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .theory-section .theory-area .theory-img {
-  position: absolute;
-  right: 0;
-  max-width: 550px;
-  bottom: 0;
+    position: absolute;
+    right: 67px;
+    max-width: 405px;
+    bottom: 0;
 }
-
 /* Theory CSS End */
 /* About CSS Start */
 .about-section {
