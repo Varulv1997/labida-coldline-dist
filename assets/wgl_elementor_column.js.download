@@ -5,7 +5,7 @@
             
             window.elementorFrontend.hooks.addAction( 'frontend/element_ready/column',
                 function( $scope ){ 
-                    zikzag_sticky_sidebar();
+                    labida_sticky_sidebar();
                 }
             );
         

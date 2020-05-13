@@ -59,7 +59,7 @@ display: none;
 div.wpcf7 .ajax-loader {
 visibility: hidden;
 display: inline-block;
-background-image: url(//zikzag.wgl-demo.net/wp-content/plugins/contact-form-7/images/ajax-loader.gif);
+background-image: url(//labida.wgl-demo.net/wp-content/plugins/contact-form-7/images/ajax-loader.gif);
 width: 16px;
 height: 16px;
 border: none;
@@ -165,11 +165,11 @@ line-height: 10px;
 .rtl {	direction: rtl;}
 @font-face {
 font-family: 'revicons';
-src: url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888);
-src: url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'),
-url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888) format('woff'),
-url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf?5510888) format('truetype'),
-url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888#revicons) format('svg');
+src: url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888);
+src: url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'),
+url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888) format('woff'),
+url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf?5510888) format('truetype'),
+url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888#revicons) format('svg');
 font-weight: normal;
 font-style: normal;
 }
@@ -347,10 +347,10 @@ rs-layer:not(.rs-wtbindex),
 .rs-layer:not(.rs-wtbindex),
 rs-alyer *:not(.rs-wtbindex),
 .rs-layer *:not(.rs-wtbindex) { outline: none !important; } rs-carousel-wrap {
-cursor:url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/css/openhand.cur), move;
+cursor:url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/css/openhand.cur), move;
 }
 rs-carousel-wrap.dragged {
-cursor:url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/css/closedhand.cur), move;
+cursor:url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/css/closedhand.cur), move;
 }
 rs-carousel-wrap { position: absolute; overflow: hidden;  width:100%;height:100%;top:0px;left:0px;}
 rs-carousel-space { clear:both;display:block;width:100%;height:1px;position:relative;margin-bottom:-1px } .tp_inner_padding {	
@@ -554,10 +554,10 @@ rs-module h4.rs-layer:before,
 rs-module h5.rs-layer:before,
 rs-module h6.rs-layer:before { content: none; } rs-dotted						{	background-repeat:repeat;width:100%;height:100%;position:absolute;top:0px;left:0px;z-index:3;display:block;pointer-events: none}
 rs-sbg-wrap rs-dotted 			{ z-index: 31 }
-rs-dotted.twoxtwo				{	background:url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/gridtile.png)}
-rs-dotted.twoxtwowhite			{	background:url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png)}
-rs-dotted.threexthree			{	background:url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png)}
-rs-dotted.threexthreewhite		{	background:url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png)} .tp-shadowcover	{	width:100%;height:100%;top:0px;left:0px;background: #fff;position: absolute; z-index: -1;}
+rs-dotted.twoxtwo				{	background:url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/gridtile.png)}
+rs-dotted.twoxtwowhite			{	background:url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png)}
+rs-dotted.threexthree			{	background:url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png)}
+rs-dotted.threexthreewhite		{	background:url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png)} .tp-shadowcover	{	width:100%;height:100%;top:0px;left:0px;background: #fff;position: absolute; z-index: -1;}
 .tp-shadow1 	{	box-shadow: 0 10px 6px -6px rgba(0,0,0,0.8);}
 .tp-shadow2:before, .tp-shadow2:after,
 .tp-shadow3:before, .tp-shadow4:after
@@ -804,8 +804,8 @@ zoom:1;
 }
 .rs-layer.slidelink { cursor:pointer;width:100%;height:100%; }
 .rs-layer.slidelink a {	width:100%;height:100%;display:block}
-.rs-layer.slidelink a div {	width:3000px; height:1500px;  background:url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/coloredbg.png) repeat}
-.rs-layer.slidelink a span{	background:url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/coloredbg.png) repeat; width:100%;height:100%;display:block}  .rs-layer .rs-starring				{	display: inline-block}
+.rs-layer.slidelink a div {	width:3000px; height:1500px;  background:url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/coloredbg.png) repeat}
+.rs-layer.slidelink a span{	background:url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/coloredbg.png) repeat; width:100%;height:100%;display:block}  .rs-layer .rs-starring				{	display: inline-block}
 .rs-layer .rs-starring .star-rating {
 float: none;	
 display: inline-block;
@@ -856,7 +856,7 @@ rs-loader.spinner0 {
 width: 40px;
 height: 40px;
 background-color: #fff;
-background-image:url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/loader.gif);
+background-image:url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/loader.gif);
 background-repeat:no-repeat;
 background-position: center center;
 box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);	
@@ -876,7 +876,7 @@ animation: tp-rotateplane 1.2s infinite ease-in-out;
 border-radius: 3px;	
 }
 rs-loader.spinner5 	{	
-background-image:url(//zikzag.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/loader.gif);
+background-image:url(//labida.wgl-demo.net/wp-content/plugins/revslider/public/assets/assets/loader.gif);
 background-repeat:no-repeat;
 background-position:10px 10px;
 background-color:#fff;

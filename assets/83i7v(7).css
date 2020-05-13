@@ -1,18 +1,18 @@
 @font-face {
 font-family: "Flaticon";
-src: url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.eot);
-src: url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.eot?#iefix) format("embedded-opentype"),
-url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.woff2) format("woff2"),
-url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.woff) format("woff"),
-url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.ttf) format("truetype"),
-url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.svg#Flaticon) format("svg");
+src: url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.eot);
+src: url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.eot?#iefix) format("embedded-opentype"),
+url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.woff2) format("woff2"),
+url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.woff) format("woff"),
+url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.ttf) format("truetype"),
+url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.svg#Flaticon) format("svg");
 font-weight: normal;
 font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 @font-face {
 font-family: "Flaticon";
-src: url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.svg#Flaticon) format("svg");
+src: url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.svg#Flaticon) format("svg");
 }
 }
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
@@ -118,19 +118,19 @@ transform-origin: 100% 0;
 .flaticon-see:before { content: "\f138"; }
 .flaticon-shine:before { content: "\f139"; }@font-face {
 font-family: "Flaticon";
-src: url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.eot);
-src: url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.eot?#iefix) format("embedded-opentype"),
-url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.woff2) format("woff2"),
-url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.woff) format("woff"),
-url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.ttf) format("truetype"),
-url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.svg#Flaticon) format("svg");
+src: url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.eot);
+src: url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.eot?#iefix) format("embedded-opentype"),
+url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.woff2) format("woff2"),
+url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.woff) format("woff"),
+url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.ttf) format("truetype"),
+url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.svg#Flaticon) format("svg");
 font-weight: normal;
 font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 @font-face {
 font-family: "Flaticon";
-src: url(https://zikzag.wgl-demo.net/wp-content/themes/zikzag/fonts/flaticon/Flaticon.svg#Flaticon) format("svg");
+src: url(https://labida.wgl-demo.net/wp-content/themes/labida/fonts/flaticon/Flaticon.svg#Flaticon) format("svg");
 }
 }
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
