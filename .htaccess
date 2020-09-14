@@ -70,5 +70,6 @@ Header set Cache-Control "max-age=2419200, public"
 	Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
 	# Header set Content-Security-Policy ...
 	Header set Referrer-Policy "same-origin"
-	Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
+	Header set Permissions-Policy "geolocation 'self'; vibrate 'none'"
+	Header add Content-Security-Policy "default-src *  data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval' 'unsafe-dynamic'; script-src * data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * data: blob: 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src * data: blob: ; style-src * data: blob: 'unsafe-inline'; font-src * data: blob: 'unsafe-inline';"
 </IfModule>
