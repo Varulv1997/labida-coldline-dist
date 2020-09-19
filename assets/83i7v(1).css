@@ -73,7 +73,7 @@ margin-bottom: 0;
 }
 .wgl-env-theme__wrapper .wgl-env-theme__btn .toolbar_link:hover,
 .wgl-env-theme__wrapper .wgl-env-theme__btn .toolbar_link.toolbar_btn-support{
-background: #f03759;
+background: #FF4A17;
 color: #ffffff;
 }
 .wgl-env-theme__wrapper .wgl-env-theme__btn .toolbar_link.toolbar_btn-support:hover{
@@ -117,7 +117,7 @@ position: absolute;
 z-index: 1;
 height: 3px;
 width: 40px;
-background: #f03759;
+background: #FF4A17;
 border-radius: 1.5px;
 right: 0;
 top: 50%;
@@ -155,7 +155,7 @@ text-transform: uppercase;
 .wgl-env-theme__wrapper .wgl-toolbar__price{
 font-size: 16px;
 font-weight: 700;
-color: #f03759;
+color: #FF4A17;
 font-family: 'Nunito Sans';
 }
 .wgl-env-theme__wrapper .wgl-toolbar__desc .wgl-toolbar__cats:before{
