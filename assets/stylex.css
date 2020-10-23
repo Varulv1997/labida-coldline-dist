@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item .nav-link {
-  color: #4a4a4a;
+  color: #2a2731;
   font-weight: 500;
   text-transform: capitalize;
   line-height: 1;
@@ -512,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   text-align: center;
   padding-top: 15px;
-  color: #3f3f3f;
+  color: #2a2731;
   display: inline-block;
   font-size: 18px;
 }
@@ -760,7 +760,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin-bottom: 10px;
   display: inline-block;
-  color: #111111;
+  color: #2a2731111;
   z-index: 0;
 }
 
@@ -775,7 +775,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-section .about-text .about-us i.icon-one::after {
-  background: #42afaf;
+  background: #FF4A17;
 }
 
 .about-section .about-text .about-us i.icon-two::after {
@@ -855,7 +855,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .features-section .features-card.feature-one i {
-  color: #18a87c;
+  color: #FF4A17;
   background: #2a2731;
 }
 
@@ -1355,7 +1355,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-section .blog-card .blog-text h3 a {
-  color: #111111;
+  color: #2a2731111;
 }
 
 .blog-section .blog-card .blog-text .post-info {
@@ -1455,19 +1455,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-section .contact-form .form-group ::-webkit-input-placeholder {
-  color: #464646;
+  color: #2a2731;
 }
 
 .contact-section .contact-form .form-group :-ms-input-placeholder {
-  color: #464646;
+  color: #2a2731;
 }
 
 .contact-section .contact-form .form-group ::-ms-input-placeholder {
-  color: #464646;
+  color: #2a2731;
 }
 
 .contact-section .contact-form .form-group ::placeholder {
-  color: #464646;
+  color: #2a2731;
 }
 
 .contact-section .contact-form .form-group .list-unstyled {
@@ -1765,7 +1765,7 @@ h1, h2, h3, h4, h5, h6 {
 /** -------------- Home Page Two CSS Start --------------**/
 /* Header CSS Start */
 .header-style-two {
-  background: #071d24;
+  background: #FF4A17;
 }
 
 .header-style-two .header-left-text ul li {
@@ -1896,7 +1896,7 @@ h1, h2, h3, h4, h5, h6 {
 .video-style-two::before {
   position: absolute;
   content: '';
-  background: #464544;
+  background: #2a2731;
   width: 100%;
   height: 100%;
   top: 0;
@@ -2337,7 +2337,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-details-area .blog-description .article-title {
   font-size: 32px;
-  color: #111111;
+  color: #2a2731111;
   font-weight: 600;
   margin-bottom: 25px;
 }
@@ -2401,7 +2401,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-details-area .blog-description .blog-nav .prev-btn a, .blog-details-area .blog-description .blog-nav .next-btn a {
-  color: #3f3f3f;
+  color: #2a2731;
   border: 1px solid #fb7a00;
   border-radius: 5px;
   padding: 8px 20px;
@@ -2822,7 +2822,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-area .contact-box .contact-card ul li {
-  color: #4a4a4a;
+  color: #2a2731;
   font-size: 14px;
   list-style: none;
 }
@@ -3554,7 +3554,7 @@ h1, h2, h3, h4, h5, h6 {
 .privacy-section ul li {
   margin-top: 10px;
   list-style: circle;
-  color: #111111;
+  color: #2a2731111;
 }
 
 /**-------------- Privacy Page CSS End --------------**/

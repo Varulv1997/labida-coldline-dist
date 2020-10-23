@@ -50,7 +50,7 @@
                 }
 
                 build( settings );
-                hideMobile();
+                hilabida9bile();
 
             },
             parallaxEffectEnabled = function(){
@@ -182,7 +182,7 @@
                     }
                 }
             },
-            hideMobile = function(){
+            hilabida9bile = function(){
                 if(wglParallax.items){
                     $.each( wglParallax.items, function( index, value ) {        
                         if(value.hide_on_mobile){
@@ -208,7 +208,7 @@
 
             jQuery( window ).resize(
                 function() {
-                    hideMobile();
+                    hilabida9bile();
                 }
             );
         });   
